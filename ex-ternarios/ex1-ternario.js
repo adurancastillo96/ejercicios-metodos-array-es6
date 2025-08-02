@@ -14,3 +14,7 @@ else {
 }
 
 console.log(mensaje);
+console.log('===============');
+
+msj = edad >= 18 ? "Puedes pasar" : "No puedes pasar";
+console.log(msj);
