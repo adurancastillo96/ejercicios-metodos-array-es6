@@ -7,8 +7,10 @@
  * Escribe la siguiente función como una arrow function. BONUS: Escribe la siguiente funcióm como una arrow function en una sola línea
  */
 
-function actualizarContador(valor) {
+/* function actualizarContador(valor) {
     return valor + 1
-}
+} */
 
-console.log(actualizarContador(1)); //2 
+const actualizarContador = (valor) => valor + 1;
+
+console.log(actualizarContador(2)); //3

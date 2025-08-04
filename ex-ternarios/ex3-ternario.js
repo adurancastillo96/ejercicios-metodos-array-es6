@@ -3,11 +3,11 @@ const movimientos = [100, -200, 100, -400];
 
 /** utiliza .map para indicar si se ha efectuado un "ingreso" o una "retirada" ["ingreso", "retirada", "ingreso", "retirada"] */
 const categorizarMovimientos = movimientos.map(m => {
-    if (m > 0) {
+/*     if (m > 0) {
         return "ingreso";
     }
-    return "retirada";
-
+    return "retirada"; */
+    return m > 0 ? "ingreso" : "retirada";
 
 });
 

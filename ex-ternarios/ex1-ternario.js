@@ -2,7 +2,7 @@
  * Utiliza el operador ternario https://javascript.info/ifelse#conditional-operator  para conseguir el mismo resultado
  */
 
-let edad = 21;
+let edad = 18;
 let mensaje;
 
 if (edad >= 18) {

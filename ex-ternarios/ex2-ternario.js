@@ -7,11 +7,13 @@
  */
 
 function hipotecaSalvaje(edad) {
-    if (edad > 40) {
+/*     if (edad > 40) {
         return 50000;
     }
 
-    return 30000;
+    return 30000; */
+
+    return edad > 40 ? 50000 : 30000;
 }
 
 // Caso de prueba 1: Edad mayor a 40
