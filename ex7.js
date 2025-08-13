@@ -6,6 +6,10 @@ function calcularEdad(persona) {
     let newPerson = {};
 
     // Modificar a partir de aqui
+    newPerson = {
+        ...persona,
+        edad: currentYear - persona.nacimiento
+    }
 
     // NO modificar a partir de aquí
     return newPerson;

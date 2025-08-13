@@ -60,8 +60,8 @@ console.log("Apartado D: ", pacientesAvisos);
 
 
 // E) Usa la función map para crear tantos tags <li> como pacientes hay en el array
-let pacientesLista; // TODO
-// console.log("Apartado E: ", pacientesLista);
+let pacientesLista = pacientes.map(paciente => `'<li>${paciente.nombre}</li>'`);
+console.log("Apartado E: ", pacientesLista);
 
 /**
  * ['<li>Pedro</li>', '<li>María</li>']
